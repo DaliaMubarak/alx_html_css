@@ -1,0 +1,45 @@
+body{background-color: bisque;
+    display:flex;
+    flex-direction:column;
+    
+    
+    }
+    main{background-color: brown;
+        display:flex;
+        flex-direction:row;
+        flex:auto
+
+        
+  }
+  article{background-color: aqua;
+flex: 2;overflow-y: auto;}
+  aside{background-color: aquamarine;flex:1;overflow-y: auto;}
+  footer{background-color: blueviolet;}
+  div.part1{background-color: azure;}
+  div.part2{background-color: antiquewhite ;}
+
+
+  .header{display: flex;
+          background-color: black;
+          color: azure;
+          
+    }
+    .list{display: flex;
+          background-color: azure;
+          color: black;
+          list-style: none;
+          gap: 20px;
+        
+    }
+    .options{align-content: flex-end;}
+
+    .pic{display: flex;
+         justify-content:space-evenly;}
+
+    .tt{height: 60px;}
+    .person{align-content: center;}
+
+    .toto{display: flex;
+    justify-content: space-evenly;}
+
+    .tito1{width: 100;}
