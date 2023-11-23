@@ -187,7 +187,8 @@
   }
   
   
-  
+  .row{display: flex;}
+
   
   [class*='col-'] {
 
