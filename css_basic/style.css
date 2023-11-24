@@ -1,3 +1,37 @@
+/* header=============================*/
+
+.header{display: flex;
+      background-color: blueviolet;
+      padding: 50px;
+      justify-content: space-between;
+      
+}
+.list{display: flex;
+
+      color: rgb(217, 205, 205);
+      list-style: none;
+      gap: 20px;
+      font: 200;
+    
+}
+
+
+.pic{display: flex;
+     justify-content:space-evenly;}
+
+.tt{height: 60px;}
+.person{align-content: center;}
+
+.toto{display: flex;
+justify-content: space-evenly;}
+
+.tito1{width: 100;}
+
+.logo{align-content: flex-start;}
+.options {justify-content: right;}
+
+
+
 body{background-color: bisque;
     display:flex;
     flex-direction:column;
@@ -9,6 +43,19 @@ body{background-color: bisque;
         flex-direction:row;
         flex:auto
 
+
+        /*aside==============================================*/
+
+        .aside div{
+            padding: 10px;
+            margin: 10px;
+            display: flex;
+            align-content: center;
+        }
+        .aside .first-how{background-color: aliceblue;}
+        .aside .second-how{background-color: antiquewhite;}
+        .aside .third-how{background-color: azure;}
+
         
   }
   article{background-color: aqua;
@@ -19,27 +66,4 @@ flex: 2;overflow-y: auto;}
   div.part2{background-color: antiquewhite ;}
 
 
-  .header{display: flex;
-          background-color: black;
-          color: azure;
-          
-    }
-    .list{display: flex;
-          background-color: azure;
-          color: black;
-          list-style: none;
-          gap: 20px;
-        
-    }
-    .options{align-content: flex-end;}
-
-    .pic{display: flex;
-         justify-content:space-evenly;}
-
-    .tt{height: 60px;}
-    .person{align-content: center;}
-
-    .toto{display: flex;
-    justify-content: space-evenly;}
-
-    .tito1{width: 100;}
+  
